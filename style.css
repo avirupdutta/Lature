@@ -33,3 +33,11 @@ body {
 #form-group-1{
 	margin-left: 9%;
 }
+#cover-caption{
+	height: 80vh;
+}
+.card{
+	margin-top: 10%;
+	float: left;
+	margin-left: 10%;
+}
