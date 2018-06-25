@@ -8,7 +8,7 @@ body {
 /*cover*/
 
 #cover {
-	background: #222 url(images/wide/night-sky.png) center center no-repeat;
+	background: #222 url(images/wide/4.1.jpg) center center no-repeat;
 	background-size: cover;
 	color: white;
 	text-align: center;
@@ -30,7 +30,7 @@ body {
 .form-group {
 	margin-right: 1%;
 }
-#form-group-1{
+/*#form-group-1{
 	margin-left: 9%;
 }
 #cover-caption{
@@ -40,4 +40,17 @@ body {
 	margin-top: 10%;
 	float: left;
 	margin-left: 10%;
+}*/
+.card{
+	margin-bottom: 5%;
+}
+.card-text{
+	text-align: center;
+	padding: 2%;
+}
+#elegant{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 100;
 }
