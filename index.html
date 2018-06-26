@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Lature</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
@@ -13,67 +13,74 @@
   
 <body>
 
-	
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-		  <span class="navbar-toggler-icon"></span>
-		</button>
-		<a class="navbar-brand" href="#">LATURE</a>
-	  
-		<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-		  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-			<li class="nav-item active">
-			  <a class="nav-link" href="#">Top Images <span class="sr-only">(current)</span></a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link" href="#">Blogs</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link disabled" href="#">Today's Winner</a>
-			</li>
-		  </ul>
-		  <form class="form-inline my-2 my-lg-0">
-			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-			<button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
-		  </form>
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark navbar-full">
+		<a class="navbar-brand" href="#">Lature</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+								<a class="nav-link" href="#">Top Images <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+								<a class="nav-link active" href="#">Premium Gallery</a>
+						</li>
+						<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Categories
+		</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="#">Blogs</a>
+										<a class="dropdown-item" href="#">Flora & Fauna</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">Help Center</a>
+								</div>
+						</li>
+						<li class="nav-item">
+								<a class="nav-link active" href="#">Sign in</a>
+						</li>
+				</ul>
+				<form class="form-inline">
+						<input class="form-control mr-1" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success" type="submit">Search</button>
+				</form>
 		</div>
-	  </nav>
-
-		<section id="cover">
-			<div id="cover-caption">
-				<div class="container">
+</nav>
+		
+<section id="cover">
+	<div id="cover-caption">
+			<div class="container">
 					<div class="col-sm-10 col-sm-offset-1">
-						<h5 class="display-3">Join The Free Contest Today!</h5>
+							<h1 class="display-4">Join Our Premium Club for Free Today!</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eius expedita quia facilis itaque alias doloremque porro facere maiores molestias nesciunt ut nisi, quod hic beatae asperiores, atque minima aperiam.</p>
 
+							<form action="" class="form-inline justify-content-center">
+									<div class="form-group">
+											<label for="" class="sr-only">
+					Name
+				</label>
+											<input type="text" class="form-control form-control-lg mr-1" placeholder="Name">
+									</div>
 
-						<p>Over 10 MILLION users have already joined the free competion. NO Credit Card required! Just provide your name and email and get a chance to win free gifts everyday!</p>
-	
-						<form action="" class="form-inline">
-							<div class="form-group" id="form-group-1">
-								<label for="" class="sr-only">
-									Name
-								</label>
-								<input type="text" class="form-control form-control-lg" placeholder="Name">
-							</div>
-	
-							<div class="form-group">
-								<label for="" class="sr-only">
-									Name
-								</label>
-								<input type="Email" class="form-control form-control-lg" placeholder="Email">
-							</div>
-							<button type="submit" class="btn btn-success btn-lg">Join, Now!</button>
-						</form>
-	
-						<br>
-	
-						<a href="" class="btn btn-secondary-outline btn-lg">&darr;</a>
-	
+									<div class="form-group">
+											<label for="" class="sr-only">
+					Name
+				</label>
+											<input type="Email" class="form-control form-control-lg mr-1" placeholder="Email">
+									</div>
+									<button type="button" class="btn btn-success btn-lg" id="btn">I want to see!</button>
+							</form>
+
+							<br>
+
+							<a href="" class="btn btn-sm btn-outline-light">&darr;</a>
+
 					</div>
-				</div>
 			</div>
-		</section>
-
+	</div>
+</section>
 
 		<!--
 		<div class="card" style="width: 18rem;">
@@ -180,96 +187,234 @@
 			</div>
 	
 		</section>-->
-	
-	
 		<section id="what-we-do">
 
 			<div class="section-content">
-	
-				<div class="container">
-					<h1 class="display-3" id="elegant">Elegant Nature Photography</h1>
-					
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="card-group">
-								<div class="card">
-									<div class="card-block">
-										<h4 class="card-title">
-											Strategy &amp; Planning
-											<h6 class="card-subtitle">
-												Support card subtitle
-											</h6>
-										</h4>
+
+					<div class="container">
+							<h1 class="display-4">What we do</h1>
+							<h2>
+									<p class="lead" id="leader">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nisi distinctio, placeat inventore eius facere expedita dicta, quidem quisquam earum officia iusto sunt, est quo. Inventore officia dolorum ratione eius.
+									</p>
+							</h2>
+
+							<div class="row" id="row1">
+									<div class="col-sm-12">
+											<div class="card-group">
+													<div class="card">
+															<div class="card-header">
+																	<h4 class="card-title">
+																			Strategy &amp; Planning
+																			<h6 class="card-subtitle">
+																					Support card subtitle
+																			</h6>
+																	</h4>
+															</div>
+															<img src="images/wide/1.1.jpg" alt="a foggy mountain">
+															<div class="card-block">
+																	<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam consequatur qui at ullam minus quos magnam tenetur harum. </p>
+																	<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#myModal">Learn more</button>
+															</div>
+													</div>
+
+													<div class="card">
+															<div class="card-header">
+																	<h4 class="card-title">
+																			Creative &amp; Design
+																			<h6 class="card-subtitle">
+																					Support card subtitle
+																			</h6>
+																	</h4>
+															</div>
+															<img src="images/wide/2.1.jpg" alt="a dark mountain">
+															<div class="card-block">
+																	<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, quasi ut iste tempora sequi nihil nesciunt vel, . </p>
+																	<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#myModal">Learn more</button>
+															</div>
+													</div>
+
+													<div class="card">
+															<div class="card-header">
+																	<h4 class="card-title">
+																			Mountains &amp; Skies
+																			<h6 class="card-subtitle">
+																					Support card subtitle
+																			</h6>
+																	</h4>
+															</div>
+															<img src="images/wide/3.1.jpg" alt="a dark mountain">
+															<div class="card-block">
+																	<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, quasi ut iste tempora sequi nihil nesciunt vel. </p>
+																	<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#myModal">Learn more</button>
+															</div>
+													</div>
+											</div>
 									</div>
-									<img src="images/10.jpg" alt="a foggy mountain">
-									<div class="card-block">
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam consequatur qui at ullam minus quos magnam tenetur harum ducimus sequi, praesentium animi dolor ipsa officiis, voluptate porro quibusdam laborum repellat. </p>
-										<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#myModal">Learn more</button>
-									</div>
-								</div>
-	
-								<div class="card">
-									<div class="card-block">
-										<h4 class="card-title">
-											Creative &amp; Design
-											<h6 class="card-subtitle">
-												Support card subtitle
-											</h6>
-										</h4>
-									</div>
-									<img src="images/11.jpg" alt="a dark mountain">
-									<div class="card-block">
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, quasi ut iste tempora sequi nihil nesciunt vel, delectus blanditiis ipsa dicta numquam iure modi. Deserunt ad nostrum provident aliquid ea. </p>
-										<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#myModal">Learn more</button>
-									</div>
-								</div>
-	
-								<div class="card">
-									<div class="card-block">
-										<h4 class="card-title">
-											Mountains &amp; Skies
-											<h6 class="card-subtitle">
-												Support card subtitle
-											</h6>
-										</h4>
-									</div>
-									<img src="images/12.jpg" alt="a dark mountain">
-									<div class="card-block">
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, quasi ut iste tempora sequi nihil nesciunt vel, delectus blanditiis ipsa dicta numquam iure modi quasi ut iste tempora sequi nihil nesciunt vel,.. </p>
-										<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#myModal">Learn more</button>
-									</div>
-								</div>
 							</div>
-						</div>
 					</div>
-				</div>
 			</div>
-		</section>
+	</section>
+
+
+
 	
 
-		<div class="card text-center">
+		<div class="card text-center" id="row1">
 			<div class="card-header">
 			  <ul class="nav nav-tabs card-header-tabs">
 				<li class="nav-item">
-				  <a class="nav-link active" href="#">Top Images</a>
+				  <a class="nav-link active" href="#">Premium Arena</a>
 				</li>
 				<li class="nav-item">
 				  <a class="nav-link" href="#">Editor's Choise</a>
 				</li>
 				<li class="nav-item">
-				  <a class="nav-link disabled" href="#">Disabled</a>
+				  <a class="nav-link disabled" href="#">Vistor's Choise</a>
 				</li>
 			  </ul>
 			</div>
 			<div class="card-body">
-			  <h5 class="card-title">Check out our Top Images Here</h5>
-			  <p class="card-text">We upadate our top images everyday from our collection. See now.</p>
-			  <a href="#" class="btn btn-primary">Take me there!</a>
+			  <h5 class="card-title">Check out our Top Images, Blogs, Videos and much more Contents here!</h5>
+			  <p class="card-text">We upadate our lists Everyday. Unlock the Premium Arena now.</p>
+			  <a href="#" class="btn btn-primary">Show Me</a>
 			</div>
 		  </div>
 
 
+			<section id="news">
+        <div class="section-content">
+            <div class="container">
+                <h3 class="display-4">Latest News</h3>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, consequatur laboriosam explicabo perferendis amet laudantium quisquam, ipsam, fugiat voluptatum magnam quaerat dicta? Modi vitae expedita architecto natus voluptates reiciendis minus.
+                </p>
+                <div class="row">
+                    <div class="col-sm-12">
 
+                        <div class="card-columns">
+                            <div class="card">
+                                <img class="card-img-top" src="images/2.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title that wraps to a new line</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                            <div class="card p-3">
+                                <blockquote class="blockquote mb-0 card-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                    <footer class="blockquote-footer">
+                                        <small class="text-muted">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div class="card">
+                                <img class="card-img-top" src="images/4.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                            <div class="card bg-primary text-white text-sm-center">
+                                <div class="card-body">
+                                    <blockquote>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                                        <footer>
+                                            <small>
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+                                        </footer>
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="card card-body text-sm-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img class="card-img" src="images/11.jpg" alt="mountaineer on a mountain">
+                            </div>
+                            <div class="card text-white bg-warning mb-3" style="max-width: 23rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Warning card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <hr>
+
+                <nav aria-label="..." class="text-md-center">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                            <span class="page-link">Previous</span>
+                        </li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item">
+                            <span class="page-link">2
+        <span class="sr-only">(current)</span>
+                            </span>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </section>
+
+		<footer id="footer-main">
+			<div class="container">
+					<div class="row">
+							<div class="col-sm-3">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<p>coded by <a href=""></a></p>
+							</div>
+							<div class="col-sm-3">
+									<ul class="list-unstyled">
+											<li><a href="">Home</a></li>
+											<li><a href="">What we do</a></li>
+											<li><a href="">About</a></li>
+											<li><a href="">latest</a></li>
+									</ul>
+							</div>
+							<div class="col-sm-3">
+									<ul class="list-unstyled">
+											<li><a href="">Facebook</a></li>
+											<li><a href="">Twitter</a></li>
+											<li><a href="">YouTube</a></li>
+											<li><a href="">Linkedin</a></li>
+									</ul>
+							</div>
+							<div class="col-sm-3">
+									<h6>a tiny header</h6>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laudantium placeat voluptates facere architecto nesciunt, ratione dolorum, iusto aspernatur fuga praesentium perferendis cumque sequi ipsam repellat unde assumenda minus molestias.</p>
+							</div>
+					</div>
+			</div>
+	</footer>
 
 
 

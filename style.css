@@ -8,14 +8,14 @@ body {
 /*cover*/
 
 #cover {
-	background: #222 url(images/wide/4.1.jpg) center center no-repeat;
+	background: #222 url(images/wide/7.jpg) center center no-repeat;
 	background-size: cover;
 	color: white;
 	text-align: center;
 	display: flex;
 	align-items: center;
 	height: 100%;
-	padding: 0%;
+	padding: 2%;
 }
 
 #cover-caption {
@@ -27,22 +27,7 @@ body {
 	padding-left: 25%;
 }
 
-.form-group {
-	margin-right: 1%;
-}
-/*#form-group-1{
-	margin-left: 9%;
-}
-#cover-caption{
-	height: 80vh;
-}
-.card{
-	margin-top: 10%;
-	float: left;
-	margin-left: 10%;
-<<<<<<< HEAD
-}*/
-.card{
+#row1{
 	margin-bottom: 5%;
 }
 .card-text{
@@ -54,4 +39,30 @@ body {
 	margin-bottom: 5%;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-weight: 100;
+}
+#what-we-do {
+    padding-top: 6%;
+}
+
+#leader {
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+img {
+    max-width: 100%;
+}
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: .8rem;
+    padding: 2.5rem 0;
+}
+
+.col-sm-10 {
+    align-items: center;
+    padding: 5%;
+}
+#btn{
+	margin-top: 3px;
 }
