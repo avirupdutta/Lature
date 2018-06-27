@@ -16,41 +16,51 @@
   
 <body>
 
-	<nav class="navbar navbar-expand-sm navbar-dark bg-dark navbar-full">
-		<a class="navbar-brand" href="#">Lature</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
-
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-						<li class="nav-item active">
-								<a class="nav-link" href="#">Exclusive News <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-								<a class="nav-link active" href="#">Premium Gallery</a>
-						</li>
-						<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			Categories
-		</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item" href="#">Blogs</a>
-										<a class="dropdown-item" href="#">Flora & Fauna</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="#">Help Center</a>
-								</div>
-						</li>
-						<li class="nav-item">
-								<a class="nav-link active" href="#">Sign in</a>
-						</li>
-				</ul>
-				<form class="form-inline">
-						<input class="form-control mr-1" type="search" placeholder="Search" aria-label="Search">
-						<button class="btn btn-outline-success" type="submit">Search</button>
-				</form>
-		</div>
-</nav>
+	<!-- Fixed navbar -->
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html">Lature</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Local Arena <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				 Gallery
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				  <a class="dropdown-item" href="florapedia.html">Florapedia</a>
+				  <hr>
+				   <a class="dropdown-item" href="#">Faunapedia</a>
+				</div>
+			  </li>
+            <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				 Categories
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				  <a class="dropdown-item" href="#">Blogs</a>
+				  <a class="dropdown-item" href="#">Top Free Posts</a><hr>
+				  <a class="dropdown-item" href="#">MeetUps</a>
+				  <a class="dropdown-item" href="#">Conferences</a>
+				  <a class="dropdown-item" href="#">Give Away Winners!</a><hr>
+				  <a class="dropdown-item" href="#">Need Help?</a>
+				</div>
+			  </li>
+			  <li class="nav-item active">
+				<a class="nav-link" href="#">Sign in</a>
+			  </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </header>
 		
 <section id="cover">
 	<div id="cover-caption">
@@ -113,7 +123,7 @@
 															<div class="card-block">
 																	<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam consequatur qui at ullam minus tenetur harum. </p>
 																	<div class="pagination justify-content-center">
-																			<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#myModal">Learn more
+																			<button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#myModal">Learn more
 																				<i class="fas fa-info"></i>
 																			</button>
 																		</div>
@@ -133,7 +143,7 @@
 															<div class="card-block">
 																	<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, quasi ut iste tempora sequi nihil nesciunt vel, . </p>
 																	<div class="pagination justify-content-center">
-																			<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#myModal">Learn more
+																			<button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#myModal">Learn more
 																				<i class="fas fa-info"></i>
 																			</button>
 																		</div>
@@ -154,7 +164,7 @@
 																	<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, quasi ut iste tempora sequi nihil nesciunt vel. </p>
 
 																	<div class="pagination justify-content-center">
-																	<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#myModal">Learn more
+																	<button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#myModal">Learn more
 																		<i class="fas fa-info"></i>
 																	</button>
 																</div>
@@ -311,7 +321,7 @@
                                 </div>
                             </div>
 						</div>
-						<div class="pagination justify-content-center">
+						<div class="pagination justify-content-center p-4">
 						<button type="button" class="btn btn-outline-info btn-lg ">More News Articles 
 							<i class="fas fa-arrow-right"></i>
 						</button>
@@ -322,7 +332,7 @@
                 </div>
                 <hr>
 
-                <nav aria-label="..." class="text-md-center">
+                <nav aria-label="..." class="text-md-center p-4">
                     <ul class="pagination justify-content-center">
                         <li class="page-item disabled">
                             <span class="page-link">Previous</span>
