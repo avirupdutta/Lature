@@ -16,11 +16,12 @@ body {
 	padding-bottom: var(--jumbotron-padding-y);
 	margin-bottom: 0;
 	background-color: #fff;
-	background: url('images/wide/18.jpeg');
-	background-position: bottom center;
+	background: url('images/wide/20.jpeg');
+	background-position:  center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: white;
+	color: black;
+	font-weight: 900;
   }
   
   @media (min-width: 768px) {
