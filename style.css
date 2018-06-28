@@ -7,25 +7,40 @@ body {
 
 /*cover*/
 
-#cover {
-	background: #222 url(images/wide/7.jpg) center center no-repeat;
+:root {
+	--jumbotron-padding-y: 3rem;
+  }
+  
+  .jumbotron {
+	padding-top: var(--jumbotron-padding-y);
+	padding-bottom: var(--jumbotron-padding-y);
+	margin-bottom: 0;
+	background-color: #fff;
+	background: url('images/wide/18.jpeg');
+	background-position: bottom center;
+	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
-	text-align: center;
-	display: flex;
-	align-items: center;
-	height: 100%;
-	padding: 2%;
-}
-
-#cover-caption {
-	width: 100%;
-	height: 100%;
-	padding: 10%;
-	padding-top: 5%;
-	padding-bottom: 5%;
-	padding-left: 25%;
-}
+  }
+  
+  @media (min-width: 768px) {
+	.jumbotron {
+	  padding-top: calc(var(--jumbotron-padding-y) * 2);
+	  padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+	}
+  }
+  
+  .jumbotron p:last-child {
+	margin-bottom: 0;
+  }
+  
+  .jumbotron-heading {
+	font-weight: 300;
+  }
+  
+  .jumbotron .container {
+	max-width: 40rem;
+  }
 
 #row1{
 	margin-bottom: 5%;
@@ -41,7 +56,8 @@ body {
 	font-weight: 100;
 }
 #what-we-do {
-    padding-top: 6%;
+	padding-top: 6%;
+	font-weight: 300;
 }
 
 #leader {
@@ -65,4 +81,8 @@ img {
 }
 #btn{
 	margin-top: 3px;
+}
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+#experience{
+	font-weight: 300;
 }
