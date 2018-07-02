@@ -1,4 +1,4 @@
- :root {
+:root {
     --jumbotron-padding-y: 3rem;
   } 
    
@@ -7,7 +7,7 @@
     padding-bottom: var(--jumbotron-padding-y);
     margin-bottom: 0;
     background-color: #fff;
-    background: url('images/wide/14.jpg');
+    background: url('images/wide/30-abstract-art-artistic-1020315.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -34,6 +34,9 @@
   
   .jumbotron-heading {
     font-weight: 300;
+  }
+  #jumbo{
+      color: #fff;
   }
   #leader {
     padding-bottom: 2%;
