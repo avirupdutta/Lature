@@ -134,3 +134,10 @@ img {
 #inputPassword{
   margin-bottom: 0;
 }
+.social{
+  overflow: hidden;
+}
+.btn-social{
+  width: 100%;
+  font-size: 18px;
+}
