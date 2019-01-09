@@ -16,7 +16,7 @@ body {
 	padding-bottom: var(--jumbotron-padding-y);
 	margin-bottom: 0;
 	
-	background: url('images/wide/31-everaldo-coelho-486014-unsplash.jpg');
+	background: url('../images/wide/31-cover.jpg');
 	background-color: #fff;
 	background-position:  top;
 	background-repeat: no-repeat;
@@ -126,6 +126,12 @@ img {
 			display: flex;
 			align-items: center;
 	}
+	
+	#container2{
+		background-color: rgba(36, 0, 94, 0.514);
+		width: 45%;
+		color: white;
+	}
 }
 h6 {
 	text-transform: uppercase;
@@ -137,4 +143,62 @@ h6 {
 	line-height: 1.2;
 	color: rgb(108, 111, 115);
 }
+
+.nav-item:hover{
+	background: var(--primary);
+	transition: all 0.1s ease-in-out;
+}
+.navbar{ padding: 0 1rem; }
+.nav-item{ padding: 0.5rem; }
+
+.general-search-input{
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-right: none;
+}
+.general-search-input:focus{   outline: 0px; 	}
+.general-search-btn{
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+
+@media screen and ( max-width: 400px ){
+
+	#searchBar{
+		width: 85%;
+	}
+
+	#container2{
+
+		background: rgba(34, 34, 34, 0.589);
+		color: white;
+
+	}
+	.jumbotron-heading, .jumbotron-heading>.lead{
+		font-size: 25px;
+	}
+	.jumbotron-heading~.lead{
+
+		display: none;
+	}
+	.feature-content{
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+
+}
+@media screen and ( max-width: 350px ){
+
+	.pagination{
+		font-size: 12px;
+	}
+	.page-item{
+		width: 40%;
+	}
+}
+
+
+
+
 
