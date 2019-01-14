@@ -88,9 +88,9 @@ img {
 	margin-top: 3px;
 }
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
-#experience{
-	font-weight: 300;
-}
+
+#experience{ font-weight: 100 !important; }
+
 #stage-caption {
 	font-size: 1.4rem;
 	font-weight: 100;
@@ -144,7 +144,7 @@ h6 {
 	color: rgb(108, 111, 115);
 }
 
-.nav-item:hover{
+#navItem:hover{
 	background: var(--primary);
 	transition: all 0.1s ease-in-out;
 }
@@ -198,7 +198,10 @@ h6 {
 	}
 }
 
+#carouselExampleFade{
+	display: flex !important;
+	justify-content: center !important;
+}
 
-
-
+#footer-main{ margin-top: 5rem !important; }
 
